@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
+
+.logo {
+    background-color: silver;
+}
+
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: rgb(32, 32, 134);
+    padding: 30px 50px;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.header {
+    background-color: silver;
+    margin-top: 8px;
+}
+
+.header .nav-bar {
+    display: flex;
+}
+
+.header .nav-bar ul {
+    list-style: none;
+    padding: 20px 0;
+}
+
+.header .nav-bar ul li {
+    padding: 20px 120px 20px 40px;
+}
+
+.header .nav-bar ul li:hover {
+    background-color: rgb(32, 32, 134);
+    color: white;
+    cursor: pointer;
+}
+
+.header .nav-bar ul li a {
+    font-size: 20px;
+    color: black;
+}
+
+
+
+img {
+    width: 1100px;
+    height: 350px;
+    margin: 5px 5px 5px 0;
+}
+
+.text {
+    margin-top: 5px;
+    background-color: silver;
+    padding: 50px 30px 70px 40px;
+
+}
+
+footer {
+    background-color: rgb(56 49 49 / 77%);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}

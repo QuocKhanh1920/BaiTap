@@ -1,0 +1,106 @@
+/* Desktop */
+
+@media  screen and (min-width: 1024px) {
+    
+}
+
+/* Tablet */
+
+@media  screen and (min-width: 768px) and (max-width: 1023px) {
+    .notify .noti1 {
+        margin-left: 100px;
+    }
+
+    .notify .noti2 {
+        margin-left: 215px;
+    }
+}
+
+/* Smartphone */
+
+@media  screen and (max-width: 767px) {
+    .adsproduct .bubble .bubble1 {
+        width: 60px;
+        height: 60px;
+        margin-left: 50px;
+    }
+    
+    .adsproduct .bubble .bubble1 p {
+        font-size: 13px;
+        padding: 17px 5px;
+    }
+    
+    .adsproduct .bubble .bubble2 {
+        width: 60px;
+        height: 60px;
+        margin-left: 100px;
+        margin-right: 365px;
+    }
+    
+    .adsproduct .bubble .bubble2 p {
+        font-size: 14px;
+        padding: 26px 15px;
+    }
+
+    .adsproduct .slide {
+        margin-top: -27px;
+    }
+
+    .adsproduct .slide .slide1 {
+        margin: 35px 0 0 20px;
+    }
+    
+    .adsproduct .slide .slide1 p {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    
+    .adsproduct .slide .slide1 button {
+        margin-top: 30px;
+        padding: 10px 20px;
+        font-size: 11px;
+    }
+    
+    .adsproduct .slide .slide1 img {
+        width: 80px;
+        height: 100px;
+    }
+    
+    .adsproduct .slide .slide2 {
+        margin: 35px 0 0 -5px;
+    
+    }
+    
+    .adsproduct .slide .slide2 p {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    
+    .adsproduct .slide .slide2 button {
+        margin-top: 50px;
+        padding: 10px 20px;
+        font-size: 11px;
+    }
+    
+    .adsproduct .slide .slide2 img {
+        width: 80px;
+        height: 100px;
+    }
+
+    .notify .noti1 {
+        margin-left: 80px;
+    }
+
+    .notify .noti2 {
+        margin-left: 90px;
+    }
+
+    .product .product2 {
+        font-size: 24px;
+        padding-top: 20px;
+    }
+
+    .product .product2 button {
+        margin-top: 9px;
+    }
+}

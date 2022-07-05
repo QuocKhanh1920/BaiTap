@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.adsproduct {
+    background-color: white;
+}
+
+.adsproduct .bubble {
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.adsproduct .bubble .bubble1 {
+    border-radius: 50%;
+    background-color: orangered;
+    color: white;
+    width: 75px;
+    height: 75px;
+    margin-left: 30px;
+    box-shadow: 5px 7px silver;
+}
+
+.adsproduct .bubble .bubble1 p {
+    padding: 20px 8px;
+}
+
+.adsproduct .bubble .bubble2 {
+    border-radius: 50%;
+    background-color:#8ac11a;
+    color: white;
+    width: 75px;
+    height: 75px;
+    margin-left: 250px;
+    margin-right: 365px;
+    box-shadow: 5px 7px silver;
+}
+
+.adsproduct .bubble .bubble2 p {
+    padding: 30px 20px;
+}
+
+.adsproduct .slide {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid silver;
+    z-index: 1;
+    margin-top: -35px;
+    box-shadow: 0px -6px 15px -6px silver;
+}
+
+.adsproduct .slide .slide1 {
+    display: flex;
+    margin: 60px 0 0 30px;
+}
+
+.adsproduct .slide .slide1 p {
+    font-size: 20px;
+}
+
+.adsproduct .slide .slide1 button {
+    background-color: crimson;
+    color: white;
+    margin-top: 50px;
+    padding: 10px 20px;
+    font-size: 11px;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 200;
+}
+
+.adsproduct .slide .slide1 img {
+    width: 250px;
+    height: 230px;
+}
+
+.adsproduct .slide .slide2 {
+    display: flex;
+    margin: 60px 45px 0 5px;
+
+}
+
+.adsproduct .slide .slide2 p {
+    font-size: 20px;
+}
+
+.adsproduct .slide .slide2 button {
+    background-color: crimson;
+    color: white;
+    margin-top: 50px;
+    padding: 10px 20px;
+    font-size: 11px;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 200;
+}
+
+.adsproduct .slide .slide2 img {
+    width: 250px;
+    height: 230px;
+}
+
+.notify {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.notify .noti1 {
+    margin-left: 190px;
+}
+
+.notify .noti2 {
+    margin-left: 110px;
+    margin-right: 260px;
+}
+
+.product {
+    display: flex;
+}
+
+.product .product1 {
+    background-color:dodgerblue;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    width: calc(100%/3);
+    text-align: center;
+    padding-top: 15px;
+}
+
+.product .product1 button {
+    background-color: dodgerblue;
+    color: white;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 11px;
+    color: #fff;
+    border: 2px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.product .product2 {
+    background-color:#99ad87;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    width: calc(100%/3);
+    text-align: center;
+    padding-top: 40px;
+}
+
+.product .product2 button {
+    background-color:#99ad87;
+    color: white;
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 11px;
+    color: #fff;
+    border: 2px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 200;
+}
+
+.product .product3 {
+    background-color:crimson;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    width: calc(100%/3);
+    text-align: center;
+    padding-top: 40px;
+    
+}
+
+.product .product3 button {
+    background-color: crimson;
+    color: white;
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 11px;
+    color: #fff;
+    border: 2px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 200;
+}
+
+.products {
+    display: flex;
+}
+
+.products .product4 {
+    background-color:#ffb021;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    width: calc(100%/2);
+    text-align: center;
+    padding-top: 25px;
+}
+
+.products .product4 button {
+    background-color: #ffb021;
+    color: white;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 11px;
+    color: #fff;
+    border: 2px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.products .product5 {
+    background-color:#ff7600;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    width: calc(100%/2);
+    text-align: center;
+    padding-top: 25px;
+}
+
+.products .product5 button {
+    background-color:#ff7600;
+    color: white;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 11px;
+    color: #fff;
+    border: 2px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+
+
+
+
