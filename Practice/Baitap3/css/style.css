@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Common Use */
+
+.text-style {
+    text-transform: uppercase;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.field-name {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/* Header Section */
+
+.header .user-support {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.header .user-support .ad-contact {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+
+.header .user-support .ad-contact i:hover {
+    cursor: pointer;
+}
+
+.header .user-support .ad-contact i[class*="fa-solid"] {
+    margin: 0 20px;
+}
+
+.header .user-support .ad-contact i[class*="fa-solid fa-phone"] {
+    border-left: 2px solid silver;
+    padding-left: 20px;
+}
+
+.header .user-support .ad-contact i[class*="fa-solid fa-envelope"] {
+    border-left: 2px solid silver;
+    padding-left: 20px;
+}
+
+.header .user-support .user-account {
+    display: flex;
+    margin-right: 40px;
+}
+
+.header .user-support .user-account p {
+    margin-left: 20px;
+}
+
+.header .brand h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.header .navbar {
+    background-color: black;
+    color: white;
+}
+
+.header .navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.header .navbar ul li {
+    margin: 0 5px;
+    padding: 10px 15px;
+}
+
+.header .navbar ul li:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.header .slide img{
+    width: 100%;
+}
+
+/* Content Section */
+
+.content {
+    margin: 30px 150px;
+}
+
+.content .subject {
+    display: flex;
+    justify-content: center;
+}
+
+.content .subject p{
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    text-transform: uppercase;
+    z-index: 2;
+    width: 100px;
+    font-weight: 700;
+}
+
+.content .services {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    border-top: 1px solid silver;
+    margin-top: -18px;
+    margin-bottom: 40px;
+    z-index: 1;
+}
+
+.content .services .commit {
+    margin-top: 40px;
+}
+
+.content .services h3 {
+    font-weight: 100;
+    font-size: 24px;
+}
+
+.content .services p {   
+    width: 210px;
+}
+
+.content .subject2 {
+    display: flex;
+    justify-content: center;
+}
+
+.content .subject2 p{
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    text-transform: uppercase;
+    z-index: 2;
+    width: 170px;
+    font-weight: 700;
+}
+
+.content .services2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top: 1px solid silver;
+    margin-top: -18px;
+    margin-bottom: 40px;
+    padding-top: 60px;
+    z-index: 1;
+}
+
+.content .services2 .commit2 {
+    width: 300px;
+    background-color:#eddfdf;
+    padding: 20px;
+}
+
+.content .services2 .commit2 h1 {
+    text-align: center;
+    font-weight: 400;
+}
+
+.content .services2 .commit2 p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 20px;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.content .services2 .commit2 .sign-up {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+
+.content .services2 .commit2 .sign-up:hover {
+    cursor: pointer;
+    color: firebrick;
+}
+
+.content .services2 .commit2 .sign-up h4{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.content .services2 .commit2 .social-contact p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.content .services2 .commit2 .social-contact .social-network {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+.content .services2 .commit2 .social-contact .social-network i:hover {
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.content .services2 .commit2 .social-contact .social-network [class*="fa-brands"] {
+    margin: 0 10px;
+}
+
+.content .services2 .commit3 iframe {
+    width: 600px;
+    height: 350px;
+}
+
+/* Product Section */
+
+.product {
+    margin: 50px 150px 80px;
+}
+
+.product .shop {
+    display: flex;
+    justify-content: center;
+}
+
+.product .shop p {
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    text-transform: uppercase;
+    z-index: 2;
+    width: 150px;
+    font-weight: 700;
+}
+
+.product .content-shop {
+    border-top: 1px solid silver;
+    margin-top: -18px;
+    z-index: 1;
+}
+
+.product .content-shop h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    margin-top: 45px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.product .content-shop p {
+    text-align: center;
+    text-transform: none;
+    font-size: 14px;
+}
+
+.product .item {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.product .item .items {
+    margin-top: 40px;
+}
+
+.product .item .items img {
+    margin-bottom: 20px;
+}
+
+/* Slogan Section */
+
+.slogan {
+    background-color: #eddfdf;
+    text-align: center;
+    padding: 20px 0 40px;
+}
+
+.slogan h1 {
+    font-weight: 100;
+}
+
+/* Footer Section */
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+.footer .support-list ul {
+    list-style: none;
+}
+
+.footer .support-list ul li {
+    text-transform: none;
+    line-height: 2;
+}
+
+.footer .social-contact .social-network {
+    font-size: 20px;
+    color: #eddfdf;
+    margin-bottom: 30px;
+}
+
+.footer .social-contact .social-network i:hover {
+    cursor: pointer;
+    color: darkorange;
+}
+
+.footer .social-contact .social-network [class*="fa-brands"] {
+    margin-right: 8px;
+}
+
+.footer .social-contact .sign-up {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    margin-top: 15px;
+    width: 230px;
+}
+
+.footer .social-contact .sign-up:hover {
+    cursor: pointer;
+    color: darkorange;
+}
+
+.footer .social-contact .sign-up h4{
+    text-transform: none;
+    font-weight: 500;
+    font-size: 13px;
+    margin: 10px 0;
+}
+
+.footer .social-contact .sign-up [class*="fa-solid"] {
+    margin-top: 15px
+}
+
+
+
+
