@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="table">
+        <div class="tab">
+            Tab 1
+        </div>
+
+        <div class="tab active">
+            Tab 2
+        </div>
+
+        <div class="tab">
+            Tab 3
+        </div>
+
+        <div class="tab">
+            Tab 4
+        </div>
+
+        <div class="tab">
+            Tab 5
+        </div>
+
+        <div class="tab">
+            Tab 6
+        </div>
+
+        <button onclick="click">Next</button>
+    </div>
+
+    <p id="cmt">Tab 2 content</p>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script type="text/javascript">
+        const button = document.querySelector('button');
+
+        button.addEventListener('click', event => {
+            $('.table').find('.tab.active').next().addClass('active');
+
+            $('.table').find('.tab.active').prev().removeClass('active');
+
+            var tab = document.querySelector('.tab.active').innerHTML;
+
+            var total = document.querySelector('#cmt').innerHTML.replace(/Tab 2/g, tab)
+
+            document.getElementById('cmt').innerHTML = tab + ' content';
+        });
+
+    </script>
+
+</body>
+
+</html>

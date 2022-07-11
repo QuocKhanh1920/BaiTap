@@ -1,0 +1,21 @@
+.table {
+    display: flex;
+    list-style: none;
+    
+}
+
+.table .tab {
+    border: 1px solid black;
+    width: 100px;
+}
+
+.table .tab.active {
+    color: red;
+    background-color: white;
+}
+
+button {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
