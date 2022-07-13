@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+}
+
+form {
+    margin-top: 20vh;
+}
+
+fieldset {
+    display: block;
+    margin: 1.0em auto;
+    width: 40%;
+}
+
+legend {
+    font-size: 24px;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+}
+
+table tr td {
+    font-size: 20px;
+    padding: 20px;
+}
+
+table tr td input {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+h1 {
+    margin-top: 40vh;
+    font-size: 50px;
+    color: crimson;
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
