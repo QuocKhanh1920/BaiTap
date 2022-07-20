@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    font-size: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 11px;
+    background-color: coral;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+button a {
+    text-decoration: none;
+}
+
+button:hover {
+    opacity: 0.7;
+    color: white;
+}
+
+h1 {
+    color: crimson;
+}
+
+table {
+    margin: 10vh auto;
+    width: 100%;
+}
+
+table tr th {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+table tbody tr td {
+    background-color: darkturquoise;
+    color: white;
+}
+
