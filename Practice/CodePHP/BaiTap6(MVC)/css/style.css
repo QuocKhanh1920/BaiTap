@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+    font-weight: 700;
+    color: dodgerblue;
+}
+
+.button {
+    text-align: center;
+    margin: 10px;
+}
+
+.button button {
+    margin: 10px;
+}
+
+.button a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+table {
+    text-align: center;
+}
